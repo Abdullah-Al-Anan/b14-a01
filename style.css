@@ -265,6 +265,62 @@ body {
   border-top-color: #243447;
 }
 
+.day-plan {
+  margin: 0 24px 110px;
+  padding: 85px 30px;
+  background-color: #eef2ff;
+  border: 2px dashed #7c3aed;
+  border-radius: 10px;
+}
+
+.day-plan h2 {
+  text-align: center;
+  color: #111827;
+  font-size: 42px;
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+
+.day-subtitle {
+  text-align: center;
+  color: #6b7280;
+  font-size: 16px;
+  margin-bottom: 42px;
+}
+
+.day-cards {
+  max-width: 960px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.day-card {
+  background-color: #ffffff;
+  border: 1px solid #d9dee7;
+  border-radius: 8px;
+  padding: 28px 24px;
+}
+
+.day-card h3 {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.day-card p {
+  color: #4b5563;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.day-card .day-time {
+  color: #2563eb;
+  font-size: 13px;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
 .footer {
   background-color: #08111f;
   padding: 36px 24px 28px;
