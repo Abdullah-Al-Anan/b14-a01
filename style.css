@@ -149,3 +149,160 @@ body {
   color: #6b7280;
   font-size: 13px;
 }
+
+.pricing {
+  padding: 40px 24px 110px;
+}
+
+.pricing h2 {
+  text-align: center;
+  font-size: 42px;
+  line-height: 1.2;
+  margin-bottom: 14px;
+}
+
+.pricing-subtitle {
+  text-align: center;
+  color: #6b7280;
+  font-size: 14px;
+  margin-bottom: 42px;
+}
+
+.price-cards {
+  max-width: 960px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.price-card {
+  border: 1px solid #d9dee7;
+  border-radius: 8px;
+  padding: 30px 28px;
+  background-color: #ffffff;
+}
+
+.plan-name {
+  color: #6b7280;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.price-card h3 {
+  color: #111827;
+  font-size: 42px;
+  line-height: 1;
+  margin-bottom: 6px;
+}
+
+.price-text {
+  color: #6b7280;
+  font-size: 13px;
+  margin-bottom: 28px;
+}
+
+.price-card ul {
+  border-top: 1px solid #d9dee7;
+  padding-top: 24px;
+  margin-bottom: 28px;
+  list-style-position: inside;
+}
+
+.price-card li {
+  color: #4b5563;
+  font-size: 13px;
+  line-height: 2;
+}
+
+.price-card li::marker {
+  color: #2563eb;
+}
+
+.price-button {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 13px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.light-button {
+  color: #2563eb;
+  border: 1px solid #2563eb;
+}
+
+.blue-button {
+  color: #ffffff;
+  background-color: #2563eb;
+}
+
+.dark-button {
+  color: #111827;
+  border: 1px solid #111827;
+}
+
+.pro-card {
+  background-color: #081827;
+  border-color: #081827;
+}
+
+.pro-card h3,
+.pro-card .price-text,
+.pro-card li {
+  color: #d1d5db;
+}
+
+.pro-card .plan-name {
+  color: #60a5fa;
+}
+
+.pro-card ul {
+  border-top-color: #243447;
+}
+
+.footer {
+  background-color: #08111f;
+  padding: 36px 24px 28px;
+}
+
+.footer-top {
+  max-width: 1120px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-top img {
+  width: 134px;
+  display: block;
+}
+
+.social-links {
+  display: flex;
+  gap: 24px;
+}
+
+.social-links a {
+  color: #d1d5db;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-line {
+  max-width: 1120px;
+  height: 1px;
+  background-color: #1f2937;
+  margin: 28px auto 22px;
+}
+
+.copyright {
+  color: #9ca3af;
+  text-align: center;
+  font-size: 14px;
+}
